@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+background-repeat: no-repeat;
+background-size: 1034px 900px;
+height: 600px;
+background-color: #252525;
+}
+
+
+.menu .nav__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-decoration: none;
+    width: 1050px;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+
+.menu .nav__menu .nav__logo{
+    margin-top: 20px;
+    border-radius: 100%;
+    height: 120px;
+    padding: 12px;
+    margin-left: 90px;
+}
+
+.menu .nav__menu .list__menu{
+    background-color: transparent;
+    display: flex;
+    align-items: right;
+    list-style: none;
+    padding: 20px;
+    height: 600px 25px;
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu .nav__menu .list__menu li a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    align-items: right;
+    
+}
+
+.cabecalho{
+    background-color: transparent;
+    color: #fff;
+}
+
+.cabecalho .cabecalho__container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-left: 20px;
+    background-color: rgba(119, 107, 107, 0.212);
+    height: 300px;
+    width: 1200px;
+    border-radius: 12px;
+}
+
+.cabecalho .cabecalho__container .cabecalho__titulo{
+    padding-top: 25px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 60px;
+}
+
+.cabecalho .cabecalho__container .cabecalho__subtitulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+}
+
+.page2 {
+    background-size: 1440px 900px;
+    height: 600px;
+    background-color: #000;
+    color: #fff;
+    margin: 0px;
+}
+
+section{
+    display: flex;
+}
+
+aside{
+    margin-top: 50px;
+    margin-left: 25;
+    height: auto;
+    width: auto;
+    max-width: 1200px;
+    margin-bottom: 10px;    
+}
+
+aside figure{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+aside figure img{
+    width: 100%;
+    height: 500px;
+}
+
+.page2 .container__sobre{
+    margin-top: 50px;
+}
+
+.page2 .page__sobre{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 50px;
+    background-color: rgba(119, 107, 107, 0.075);
+    padding: 15px;
+    height: 550px;
+    width: 350px;
+    border-radius: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: auto;
+}
+
+.page3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    background-size: 1440px 900px;
+    height: 580px;
+    background-color: #252525;
+    color: #fff;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.galeria__enuciado{
+    margin: 20px;
+    width: 500px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.galery{
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.galery img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.galery img:hover{
+    box-shadow: 0 0 8px;
+    scale: 1.5;
+}
+
+
+.page4{
+    height: 600px;
+    background-size: 1430px 300px;
+    background-color: #000;
+}
+
+.page4 .container__local{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    background-color: rgba(119, 107, 107, 0.075);
+    padding: 15px;
+    height: 300px;
+    width: 1440px;
+    height: 500px;
+    border-radius: 12px;
+
+}
+
+.page4 .local{
+    color: #fff;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 10px;
+    width: 1000px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 0 3px #999;
+}
+
+
+
+footer{
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer p{
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+footer a img{
+    width: 30px;
+    padding-bottom: 5px;
+}
